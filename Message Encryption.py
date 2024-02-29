@@ -2,6 +2,7 @@
 from tkinter import *
 from PIL import Image, ImageTk
 import base64
+
 #creating root object
 root = Tk()
 
@@ -115,7 +116,7 @@ def Reset():
 # Show message button
 btnTotal = Button(f1, padx=16, pady=8, bd=16, fg="black", 
                   font=('arial', 16, 'bold'), width=10, 
-                  text="Show Message", bg="powder blue", 
+                  text="Show Message", bg="red", 
                   command=Results).grid(row=7, column=1)
 
 # Reset button
@@ -127,7 +128,7 @@ btnReset = Button(f1, padx=16, pady=8, bd=16,
 # Exit button
 btnExit = Button(f1, padx=16, pady=8, bd=16,
                  fg="black", font=('arial', 16, 'bold'),
-                 width=10, text="Exit", bg="light blue", 
+                 width=10, text="Exit", bg="yellow", 
                  command=qExit).grid(row=7, column=3)
 
 # Load the background image
